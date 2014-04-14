@@ -1,6 +1,6 @@
-# client-template
+# SuperBank
 
-Serves as a template for client JavaScript applications.
+A superpowered bank application.
 
 It uses:
 * Jade
