@@ -2,18 +2,19 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Client Template
-    link(rel='stylesheet', href='./css/app.css')
+    title SuperBank
+    link(rel='stylesheet', href='css/app.css')
   body
     #container
       h1 SuperBank
 
-      #balance
+      #balance Balance:
+        span $1000
 
-      #amount
-        input#input
-        button#desposit
-        button#withdraw
+      #input
+        input#amount(autofocus=true)
+        button#deposit DEPOSIT
+        button#withdraw WITHDRAW
 
       table#ledger
         thead
@@ -22,6 +23,7 @@ html(lang='en')
             th Deposit
             th Withdraw
             th Balance
+        tbody
           tr
             td
             td
