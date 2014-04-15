@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Exo);
+body {
+  background: #3f4953;
+}
+#container {
+  margin: 0 auto;
+  width: 1080px;
+}
+h1,
+th {
+  font-family: 'Cinzel', serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  background: #e25942;
+  padding: 20px;
+  letter-spacing: 0.3em;
+  font-size: 60px;
+}
+#balance {
+  width: 25%;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+  margin: 0 auto;
+  background: #f2e7da;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+#balance span {
+  text-align: center;
+  font-size: 100%;
+}
+#input {
+  width: 25%;
+  height: 100px;
+  background: #f2e7da;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+}
+#input #amount {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px auto;
+  padding: auto;
+}
+#input button {
+  width: 45%;
+  padding: 8px;
+  font-size: 20px;
+  font-family: 'Exo', sans-serif;
+  outline: none;
+  border: none;
+  background: #13a89e;
+  color: white;
+}
+#input button:hover {
+  color: black;
+}
+#deposit {
+  float: left;
+}
+#withdraw {
+  float: right;
+}
+#ledger {
+  width: 60%;
+  margin: 0 auto;
+}
+#ledger th,
+#ledger td {
+  border: 1px solid #ccc;
+  background: #f2e7da;
+  text-align: center;
+}
+#ledger td {
+  font-family: 'Exo', sans-serif;
+}
+.deposit {
+  color: #216c2a;
+}
+.withdraw {
+  color: #e25942;
+}
+.fee {
+  color: #13a89e;
+}
